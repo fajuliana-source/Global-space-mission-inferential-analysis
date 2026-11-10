@@ -3,7 +3,7 @@
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=green)
 ![Statistics](https://img.shields.io/badge/Inferential_Statistics-ANOVA_%7C_t--Test_%7C_Regression-blue?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/Domain-Aerospace_%26_Global_Research-purple?style=for-the-badge)
-![Data Size](https://img.shields.io/badge/Data_Size-3%2C000_Missions-lightgrey?style=for-the-badge)
+![Data Size](https://img.shields.io/badge/Data_Size-3%2C000_Missions-red?style=for-the-badge)
 
 ---
 
@@ -199,7 +199,7 @@ The project features a **4-Phase dashboards**:
 ## 10. Business Recommendations
 
 
-![recommendation_insights](recommendation_insights.png)
+![recommendation_insights](recommendations_insights.png)
 
 ### 1. Focus Funding on Quality Control over Pure Spend
 Statistical regression proves that larger budgets do not automatically increase mission success rates ($r = -0.001$, $p = 0.960$). Space agencies should avoid assuming that throwing more money at a project reduces risk. Instead, funding should target rigorous testing, risk management, and pre-launch engineering.
