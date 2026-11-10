@@ -1,8 +1,8 @@
 # Global Space Exploration: Success Rate Patterns & Inferential Statistical Determinants
 
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=green)
 ![Statistics](https://img.shields.io/badge/Inferential_Statistics-ANOVA_%7C_t--Test_%7C_Regression-blue?style=for-the-badge)
-![Domain](https://img.shields.io/badge/Domain-Aerospace_%26_Global_Research-orange?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-Aerospace_%26_Global_Research-purple?style=for-the-badge)
 ![Data Size](https://img.shields.io/badge/Data_Size-3%2C000_Missions-lightgrey?style=for-the-badge)
 
 ---
@@ -85,11 +85,11 @@ Before performing inferential statistical tests, the raw dataset underwent data 
 ![before data cleaning](before_data_cleaning.png)
 
 
-![afer data cleaning1](before_data_cleaning1.png)
+![afer data cleaning1](after_data_cleaning1.png)
 
 
 
-![afer data cleaning2](before_data_cleaning2.png)
+![afer data cleaning2](after_data_cleaning2.png)
 ---
 
 ## 7. Exploratory Data Analysis and Methodology
