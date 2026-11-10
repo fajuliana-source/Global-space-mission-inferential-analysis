@@ -171,16 +171,17 @@ The project features a **4-Phase dashboards**:
 * **Outputs:** Category Means range from **74.48%** (Spy) to **75.89%** (Research) | $F = 0.853$ | $p\text{-value} = 0.491$ ($F_{\text{crit}} = 2.375$).
 * **Decision:** Fail to reject $H_0$ ($p > 0.05$). Mission category does not drive performance variation.
 
+
+
+![Inferential Dashboard regression_ttest](inferential_dashboard_regression_ttest.png)
+
+
 #### Test 3: Crewed vs. Robotic Missions (Two-Sample t-Test)
 * **Hypotheses:** 
   * $H_0$: There is no difference in success rate between crewed and robotic missions.
   * $H_1$: Crewed and robotic missions have significantly different success rates.
 * **Outputs:** Crewed Mean = **75.23%** | Robotic Mean = **74.73%** | Difference = **0.50%** | $t\text{-stat} = 0.931$ | $p\text{-value (two-tail)} = 0.352$.
 * **Decision:** Fail to reject $H_0$ ($p > 0.05$). Having humans onboard does not alter mission success rates.
-
-
-
-![Inferential Dashboard regression_ttest](inferential_dashboard_regression_ttest.png)
 
 
 #### Test 4: Predictive Drivers of Success (Multiple Linear Regression & Correlation)
