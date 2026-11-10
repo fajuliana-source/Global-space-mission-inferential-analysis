@@ -82,6 +82,14 @@ Before performing inferential statistical tests, the raw dataset underwent data 
 * **Metric Alignment:** Verified that individual success percentage figures aligned with aggregated averages without skewed outliers.
 * **ToolPak Matrix Structuring:** Arranged numeric vectors into continuous columns to meet standard Excel Data Analysis ToolPak requirements for t-tests and regression models.
 
+![before data cleaning](before_data_cleaning.png)
+
+
+![afer data cleaning1](before_data_cleaning1.png)
+
+
+
+![afer data cleaning2](before_data_cleaning2.png)
 ---
 
 ## 7. Exploratory Data Analysis and Methodology
@@ -102,20 +110,21 @@ The analysis followed a structured 4-phase research workflow:
 
 ## 8. Dashboard and Analysis Files
 
-The project features a **4-sheet executive reporting suite**:
+The project features a **4-Phase dashboards**:
 
 1. **`Descriptive Dashboard`:** High-level executive overview displaying overall KPIs, country-level performance, annual success trends (2000–2025), mission category breakdown, and crew split.
 2. **`Inferential Dashboard`:** Dedicated statistical tab containing Excel ToolPak outputs, hypothesis statements ($H_0, H_1$), test statistics, and plain-language interpretations for **Era ANOVA** and **Satellite Type ANOVA**.
 3. **`Inferential Dashboard (2)`:** Statistical tab containing regression tables, Pearson correlation matrices, and **Crewed vs. Robotic t-Test** outputs.
 4. **`recom & insight`:** Executive summary page bridging statistical findings with actionable recommendations for space agencies and decision-makers.
 
-*(Note: Data visual layouts match the custom slate/navy executive dashboard theme).*
 
 ---
 
 ## 9. Dashboard, Key Findings and Business Interpretation
 
 ### Overall Performance Overview
+
+![Global Space Exploration Dashboard Overview](descriptive_dashboard.png)
 
 | Metric | Recorded Value | Context / Notes |
 | :--- | :--- | :--- |
@@ -143,6 +152,11 @@ The project features a **4-sheet executive reporting suite**:
 
 ### Inferential Statistical Test Results
 
+
+
+![Inferential Dashboard Anova](inferential_dashboard_anova.png)
+
+
 #### Test 1: Success Rates Across Exploration Eras (Single-Factor ANOVA)
 * **Hypotheses:** 
   * $H_0$: There is no difference in success rates between the Early 2000s and Modern Era.
@@ -164,6 +178,11 @@ The project features a **4-sheet executive reporting suite**:
 * **Outputs:** Crewed Mean = **75.23%** | Robotic Mean = **74.73%** | Difference = **0.50%** | $t\text{-stat} = 0.931$ | $p\text{-value (two-tail)} = 0.352$.
 * **Decision:** Fail to reject $H_0$ ($p > 0.05$). Having humans onboard does not alter mission success rates.
 
+
+
+![Inferential Dashboard regression_ttest](inferential_dashboard_regression_ttest.png)
+
+
 #### Test 4: Predictive Drivers of Success (Multiple Linear Regression & Correlation)
 * **Hypotheses:** 
   * $H_0$: There is no linear relationship between success rate and budget/duration.
@@ -178,6 +197,9 @@ The project features a **4-sheet executive reporting suite**:
 ---
 
 ## 10. Business Recommendations
+
+
+![recommendation_insights](recommendation_insights.png)
 
 ### 1. Focus Funding on Quality Control over Pure Spend
 Statistical regression proves that larger budgets do not automatically increase mission success rates ($r = -0.001$, $p = 0.960$). Space agencies should avoid assuming that throwing more money at a project reduces risk. Instead, funding should target rigorous testing, risk management, and pre-launch engineering.
